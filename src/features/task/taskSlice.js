@@ -62,7 +62,7 @@ const taskSlice = createSlice({
             },
         ],
         // taskの編集時に選択・保持するstate
-        editTask: {
+        editedTask: {
             id: 0,
             title: '',
             created_at: '',
